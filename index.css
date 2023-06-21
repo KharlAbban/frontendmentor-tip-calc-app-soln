@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+:root {
+  --p-strong-cyan: hsl(172, 67%, 45%);
+  --n-very-dark-cyan: hsl(183, 100%, 15%);
+  --n-dark-grayish-cyan: hsl(186, 14%, 43%);
+  --n-grayish-cyan: hsl(184, 14%, 56%);
+  --n-light-grayish-cyan: hsl(185, 41%, 84%);
+  --n-very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --n-white: hsl(0, 0%, 100%);
+}
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: var(--n-light-grayish-cyan);
+}
+.logoHeading {
+  text-align: center;
+}
+.contentDiv {
+  max-width: 900px;
+  left: 50%;
+  background-color: var(--n-white);
+  color: var(--n-dark-grayish-cyan);
+}
+.select-tip-btn {
+  background: var(--n-very-dark-cyan);
+  color: var(--n-very-light-grayish-cyan);
+}
+.select-tip-btn.tip-clicked {
+  background: var(--p-strong-cyan);
+  color: var(--n-very-dark-cyan);
+}
+.reset-btn {
+  background: var(--n-dark-grayish-cyan);
+  text-transform: uppercase;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  color: var(--n-very-dark-cyan);
+}
+.reset-btn:hover {
+  background: var(--p-strong-cyan);
+  color: var(--n-very-dark-cyan);
+}
+.reset-btn.reset-clicked {
+  background: var(--p-strong-cyan);
+  color: var(--n-very-dark-cyan);
+}
+.tip-amount-section {
+  background: var(--n-very-dark-cyan);
+}
+.tip-amount-person {
+  font-size: 2.7rem;
+  color: var(--p-strong-cyan);
+}
+.tip-amount-img {
+  height: 1.8rem;
+}
+.tip-amount-head {
+  color: var(--n-white);
+  display: inline-block;
+}
+.tip-amount-tail {
+  font-size: 0.8rem;
+}
+.input-group-text {
+  color: var(--n-dark-grayish-cyan);
+}
+.custom-btn {
+  background: var(--n-light-grayish-cyan);
+  color: var(--n-very-dark-cyan);
+}
+.select-tip-btn:hover {
+  background: var(--p-strong-cyan);
+  color: var(--n-very-dark-cyan);
+}
+.bill-input-group:hover, .custom-btn:hover, .num-of-ppl-input-group:hover {
+  border: 1px solid var(--p-strong-cyan);
+  border-radius: 0.5rem;
+}
+.errorMsg {
+  font-style: 0.04rem;
+}
+
+
+.attribution {
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--n-very-dark-cyan);
+}
